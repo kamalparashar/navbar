@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+}
+.App{
+  background-color:rgb(25, 25, 25);
+  /* background-image: url("D:\React\livechat\src\backgroundimages\background3.png"); */
+  height: auto;
+  text-align: center;
+}
+.app_header{
+  background-color: rgb(197, 204, 205);
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.app_headerImage{
+  object-fit: contain;
+  height: 30px;
+}
+.login{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Form{
+  padding-top: 20px;
+}
+.Search{
+  border: 2px solid rgba(0, 0, 0,1);
+  border-radius: 20px;
+  height: 30px;
+  background-color:lightgray;
+}
+.page{
+  display: flex;
+}

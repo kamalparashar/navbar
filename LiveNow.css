@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex: 0.8;
+    color: white;
+}
+.subscribed{
+    flex: 0.2;
+}
+.live_now{
+    /* flex: 0.8; */
+    /* padding: 40px 10px; */
+    padding-bottom: 0;
+    
+}
+.live_now_videos >h1 {
+    margin-left: 5px;
+    /* margin-bottom: 20px; */
+    
+}
+.live_now_videos{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+
+}
